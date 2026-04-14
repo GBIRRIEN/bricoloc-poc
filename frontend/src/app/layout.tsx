@@ -1,6 +1,5 @@
 export const metadata = {
-  title: 'BricoLoc - Gestion des Stocks',
-  description: 'POC Microservices - BricoLoc',
+  title: 'BricoLoc - Gestion des Stocks'
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -12,7 +11,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           display: 'flex', alignItems: 'center', gap: '1rem'
         }}>
           <span style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>🔧 BricoLoc</span>
-          <span style={{ opacity: 0.7 }}>| Module Stock — POC Microservices</span>
         </header>
         <main style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
           {children}
